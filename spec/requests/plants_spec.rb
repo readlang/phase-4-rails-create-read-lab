@@ -31,7 +31,7 @@ RSpec.describe "Plants", type: :request do
         id: a_kind_of(Integer),
         name: 'Aloe', 
         image: './images/aloe.jpg', 
-        price: '15.99'
+        price: 15.99
       })
     end
 
@@ -42,7 +42,7 @@ RSpec.describe "Plants", type: :request do
         id: a_kind_of(Integer),
         name: 'ZZ Plant', 
         image: './images/zz-plant.jpg', 
-        price: '25.98'
+        price: 25.98
       })
     end
   end
@@ -61,7 +61,7 @@ RSpec.describe "Plants", type: :request do
         id: a_kind_of(Integer),
         name: 'Pilea peperomioides', 
         image: './images/pilea.jpg', 
-        price: '5.99'
+        price: 5.99
       })
     end
 
